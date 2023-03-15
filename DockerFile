@@ -1,4 +1,4 @@
 FROM amazoncorretto:11-alpine-jdk
-MAINTAINER kfl
+MAINTAINER KFL
 COPY target/kfl-0.0.1-SNAPSHOT kfl-app.jar
 ENTRYPOINT ["java", "-jar", "/kfl-app.jar"]
